@@ -1,0 +1,1 @@
+import React from 'react'import GameProcess from '../GameProcess';import LeaderBoard from '../LeaderBoard';export default () => {    return (        <>            <GameProcess/>            <LeaderBoard/>        </>    )}

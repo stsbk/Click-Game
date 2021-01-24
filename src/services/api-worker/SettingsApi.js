@@ -1,0 +1,1 @@
+import Base from './Base';export default class SettingsAPI extends Base {    getSettings() {        return super.get(`game-settings`).then(res => res.data);    }}

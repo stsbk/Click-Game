@@ -1,0 +1,1 @@
+import API from '../../API';export default class Base {    constructor() {        this.url = 'https://starnavi-frontend-test-task.herokuapp.com';    }    getUrl(path) {        return `${this.url}/${path}`;    }    get(url) {        return API.get(this.getUrl(url));    }    post(url, data) {        return API.post(this.getUrl(url), data);    }}
